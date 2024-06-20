@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        body{
+            background-image: url(bg.jpg);
+            background-size: 100%;
+            color: white;
+        }
+        nav{
+            display: flex;
+            justify-content: center;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+        nav h1{
+            font-size: 50px;
+        }
+        ul button{
+            width: 100px;
+            height: 34px;
+            background-color: rgb(244,11,11);
+            color: white;
+            font-size: 18px;
+            border: none;
+            border-radius: 3px;
+        }
+        ul{
+            display: flex;
+            list-style: none;
+        }
+        ul li a{
+            margin-inline:30px;
+            font-size: 25px;
+        }
+        ul li a:hover{
+            border-bottom: 3px solid rgb(241, 2, 2);
+            border-radius:3px;
+            cursor: pointer;
+        }
+        .text{
+            margin-left: 7%;
+            margin-top: 120px;
+        }
+        .text h1{
+            font-size: 100px;
+        }
+        .text p{
+            font-size: 27px;
+            margin-top: 20px;
+        }
+        .text button{
+            width: 170px;
+            height: 44px;
+            background-color: rgb(231,13,13);
+            font-size: 25px;
+            color: white;
+            border: none;
+            margin-top: 50px;
+            font-size: 25px;
+        }
+        .text button:hover{
+            border: 3px solid white;
+            background-color: rgb(241, 2, 2);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h1 style="color: red;">FitnessTracker</h1>
+        <ul>
+            <li><a>HOME</a></li>
+            <li><a>OFFER</a></li>
+            <li><a>GYM</a></li>
+            <li><a>CONTACT</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="text">
+            <h1>FITNESS CLUB.</h1>
+            <P>If you want something you've never had,you must  be willing<br>to do something you've never done</P>
+            <form action="index.html">
+            <button>TRACK</button>
+        </form>
+        </div>
+    </div>
+
+    
+</body>
+</html>
